@@ -136,15 +136,15 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
     $(document).ready(function() {
-        $('#id_pembayaran').change(function() { // Jika Select Box id provinsi dipilih
-            var idBayar = $(this).val(); // Ciptakan variabel provinsi
+        $('#id_pembayaran').change(function() { // Jika Select Box id pembayaran dipilih
+            var idBayar = $(this).val(); // Ciptakan variabel pembayaran
             $.ajax({
                 type: 'post', // Metode pengiriman data menggunakan POST
                 url: '../../back-end/ambilTanggal.php', // File yang akan memproses data
                 data: 'id_pembayaran=' + idBayar, // Data yang akan dikirim ke file pemroses
                 success: function(response) { // Jika berhasil
-                    $('#txtTanggal').val(response); // Berikan hasil ke id kota
-                    $('#txtMulai').val(response);
+                    $('#txtTanggal').val(response); // Berikan hasil ke tanggal mulai
+                    $('#txtMulai').val(response); // Berikan hasil ke tanggal mulai
                 }
             });
 
@@ -152,14 +152,14 @@
 
     });
     $(document).ready(function() {
-        $('#id_pembayaran').change(function() { // Jika Select Box id provinsi dipilih
-            var idBayar = $(this).val(); // Ciptakan variabel provinsi
+        $('#id_pembayaran').change(function() { // Jika Select Box id pembayaran dipilih
+            var idBayar = $(this).val(); // Ciptakan variabel pembayaran
             $.ajax({
                 type: 'post', // Metode pengiriman data menggunakan POST
                 url: '../../back-end/buatTanggal.php', // File yang akan memproses data
                 data: 'id_pembayaran=' + idBayar, // Data yang akan dikirim ke file pemroses
                 success: function(response) { // Jika berhasil
-                    $('#txtSelesai').val(response);
+                    $('#txtSelesai').val(response); // Berikan hasil ke tanggal selesai
                 }
             });
 

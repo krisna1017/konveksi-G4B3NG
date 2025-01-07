@@ -202,15 +202,15 @@
 
     <script>
         function startCalcJumlah() {
-            interval = setInterval("calcJumlah()", 1);
+            interval = setInterval("calcJumlah()", 1); //menjalankan  function calcJumlah secara berulang
         }
 
         function calcJumlah() {
-            s = document.autoSumForm.s.value;
-            m = document.autoSumForm.m.value;
-            l = document.autoSumForm.l.value;
-            xl = document.autoSumForm.xl.value;
-            document.autoSumForm.jumlah.value = parseInt(s) + parseInt(m) + parseInt(l) + parseInt(xl);
+            s = document.autoSumForm.s.value; //mengambail value input ukuran s
+            m = document.autoSumForm.m.value; //mengambail value input ukuran m
+            l = document.autoSumForm.l.value; //mengambail value input ukuran l
+            xl = document.autoSumForm.xl.value; //mengambail value input ukuran xl
+            document.autoSumForm.jumlah.value = parseInt(s) + parseInt(m) + parseInt(l) + parseInt(xl); //menggunakan parseInt agar nllai variable bisa ditambahkan
         }
 
         function stopCalc() {
@@ -222,9 +222,9 @@
         }
 
         function calc() {
-            harga = document.autoSumForm.harga.value;
-            jumlah = document.autoSumForm.jumlah.value;
-            document.autoSumForm.total.value = harga * jumlah;
+            harga = document.autoSumForm.harga.value; //mengambail value input harga
+            jumlah = document.autoSumForm.jumlah.value; //mengambail value input jumlahj
+            document.autoSumForm.total.value = harga * jumlah; //masukkan value total dengan proses perkalian harga dan jumlah
         }
 
         function stopCalc() {

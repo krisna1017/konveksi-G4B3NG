@@ -93,8 +93,9 @@
             </div>
         </div>
     </div>
+
     <div class="row">
-        <!-- Order Statistics -->
+        <!-- statistik pesanan -->
         <div class="col-md-6 col-lg-4 col-xl-4 order-0 mb-6">
             <div class="card h-100">
                 <div class="card-header d-flex justify-content-between">
@@ -119,7 +120,7 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex justify-content-between align-items-center mb-6">
                         <div class="d-flex flex-column align-items-center gap-1">
                             <?php
                             $query_tot_pesanan = mysqli_query($koneksi, "SELECT sum(jumlah) as total_pesanan from pesanan");
@@ -156,7 +157,8 @@
                 </div>
             </div>
         </div>
-        <!--/ Order Statistics -->
+        <!--/ statistik pesanan -->
+
         <!-- Transactions -->
         <div class="col-md-6 col-lg-4 order-2 mb-6">
             <div class="card h-100">
@@ -187,7 +189,7 @@
                         ?>
                             <li class="d-flex align-items-center mb-6">
                                 <div class="avatar flex-shrink-0 me-3">
-                                    <i class="bx bxs-badge-dollar"></i>
+                                    <img src="../../assets/img/icons/unicons/wallet.png" alt="cash">
                                 </div>
                                 <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                     <div class="me-2">
