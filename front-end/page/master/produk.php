@@ -35,7 +35,7 @@
                                             $id++;
                                             ?>
                                             <input type="text" id="txtKode" class="form-control"
-                                                placeholder="isi kode produk" name="kode_produk" value="<?= $id ?>" readonly>
+                                                placeholder="isi kode produk" name="kode_produk" value="<?= $id ?>" readonly required>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -49,35 +49,35 @@
                                         <div class="col mb-6">
                                             <label for="txtNama" class="form-label">Jenis produk</label>
                                             <input type="text" id="txtJenisProduk" class="form-control"
-                                                placeholder="isi nama produk" name="jenis_produk" value="baju" readonly>
+                                                placeholder="isi nama produk" name="jenis_produk" value="baju" readonly required>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col mb-6">
                                             <label for="txtNama" class="form-label">Jenis bahan</label>
                                             <input type="text" id="txtJenisBahan" class="form-control"
-                                                placeholder="isi jenis bahan" name="jenis_bahan">
+                                                placeholder="isi jenis bahan" name="jenis_bahan" required>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col mb-6">
                                             <label for="txtWarna" class="form-label">Warna</label>
                                             <input type="text" id="txtWarna" class="form-control"
-                                                placeholder="isi warna produk" name="warna">
+                                                placeholder="isi warna produk" name="warna" required>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col mb-6">
                                             <label for="txtHarga" class="form-label">Harga</label>
                                             <input type="text" id="txtHarga" class="form-control"
-                                                placeholder="isi harga produk" name="harga">
+                                                placeholder="isi harga produk" name="harga" required>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col mb-6">
                                             <label for="txtStok" class="form-label">Stok</label>
                                             <input type="number" id="txtStok" class="form-control"
-                                                placeholder="isi stok produk" name="stok">
+                                                placeholder="isi stok produk" name="stok" required>
                                         </div>
                                     </div>
 

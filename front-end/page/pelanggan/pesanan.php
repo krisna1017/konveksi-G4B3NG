@@ -54,14 +54,14 @@
                                         <div class="col mb-6">
                                             <label for="txtIdPembayaran" class="form-label">Id Pembayaran</label>
                                             <input type="text" id="txtIdPembayaran" class="form-control"
-                                                name="id_pembayaran" readonly>
+                                                name="id_pembayaran" readonly required>
                                         </div>
                                     </div>
                                     <div class="row g-6">
                                         <div class="col mb-6">
                                             <label for="txtIdPesan" class="form-label">Id Pesanan</label>
                                             <input type="text" id="txtIdPesan" class="form-control"
-                                                name="id_pesanan" readonly>
+                                                name="id_pesanan" readonly required>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -74,28 +74,28 @@
                                         <div class="col mb-6">
                                             <label for="txtBayar" class="form-label">Bayar</label>
                                             <input type="text" id="txtBayar" class="form-control"
-                                                name="bayar">
+                                                name="bayar" required>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col mb-6">
                                             <label for="txtMetode" class="form-label">Metode Pembayaran</label>
                                             <input type="text" id="txtMetode" class="form-control"
-                                                name="metode">
+                                                name="metode" required>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col mb-6">
                                             <label for="txtTanggal" class="form-label">Tanggal Pembayaran</label>
                                             <input type="text" id="txtTanggal" class="form-control"
-                                                name="tanggal">
+                                                name="tanggal" readonly>
                                         </div>
                                     </div>
                                     <div class="row" style="display: none;">
                                         <div class="col mb-6">
                                             <label for="txtStatus" class="form-label">Status Pesanan</label>
                                             <input type="text" id="txtStatus" class="form-control"
-                                                name="status">
+                                                name="status" readonly>
                                         </div>
                                     </div>
 
@@ -132,7 +132,7 @@
                                             <span>Id pesanan</span>
                                         </div>
                                         <div class="col">
-                                            <input type="text" class="form-control" name="idPesanan" id="idPesanan">
+                                            <input type="text" class="form-control" name="idPesanan" id="idPesanan" required>
                                         </div>
                                     </div>
                                     <div class="row d-flex align-items-center mb-6">
@@ -140,7 +140,7 @@
                                             <span>Nama produk</span>
                                         </div>
                                         <div class="col">
-                                            <input type="text" class="form-control" name="namaProduk" id="namaProduk">
+                                            <input type="text" class="form-control" name="namaProduk" id="namaProduk" required>
                                         </div>
                                     </div>
                                     <div class="row d-flex align-items-center mb-6">
@@ -148,7 +148,7 @@
                                             <span>Ukuran S</span>
                                         </div>
                                         <div class="col">
-                                            <input type="text" class="form-control" name="namaProduk" id="ukuranS">
+                                            <input type="text" class="form-control" name="namaProduk" id="ukuranS" required>
                                         </div>
                                     </div>
                                     <div class="row d-flex align-items-center mb-6">
@@ -156,7 +156,7 @@
                                             <span>Ukuran M</span>
                                         </div>
                                         <div class="col">
-                                            <input type="text" class="form-control" name="namaProduk" id="ukuranM">
+                                            <input type="text" class="form-control" name="namaProduk" id="ukuranM" required>
                                         </div>
                                     </div>
                                     <div class="row d-flex align-items-center mb-6" style="display: none;">
@@ -164,7 +164,7 @@
                                             <span>Ukuran L</span>
                                         </div>
                                         <div class="col">
-                                            <input type="text" class="form-control" name="namaProduk" id="ukuranL">
+                                            <input type="text" class="form-control" name="namaProduk" id="ukuranL" required>
                                         </div>
                                     </div>
                                     <div class="row d-flex align-items-center mb-6">
@@ -172,7 +172,7 @@
                                             <span>Ukuran XL</span>
                                         </div>
                                         <div class="col">
-                                            <input type="text" class="form-control" name="namaProduk" id="ukuranXL">
+                                            <input type="text" class="form-control" name="namaProduk" id="ukuranXL" required>
                                         </div>
                                     </div>
 

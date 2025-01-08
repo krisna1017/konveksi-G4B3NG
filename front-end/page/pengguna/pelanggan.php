@@ -43,28 +43,28 @@
                                         <div class="col mb-6">
                                             <label for="txtNama" class="form-label">Nama pelanggan</label>
                                             <input type="text" id="txtNama" class="form-control"
-                                                placeholder="isi nama pelanggan" name="nama_pelanggan">
+                                                placeholder="isi nama pelanggan" name="nama_pelanggan" required>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col mb-6">
                                             <label for="txtTeleponpelanggan" class="form-label">No telepon</label>
                                             <input type="text" id="txtTeleponpelanggan" class="form-control"
-                                                placeholder="isi no telepon" name="no_telepon">
+                                                placeholder="isi no telepon" name="no_telepon" required>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col mb-6">
                                             <label for="txtUsername" class="form-label">Username</label>
                                             <input type="text" id="txtUsername" class="form-control"
-                                                placeholder="isi username" name="username">
+                                                placeholder="isi username" name="username" required>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col mb-6">
                                             <label for="txtPassword" class="form-label">Password</label>
                                             <input type="password" id="txtPassword" class="form-control"
-                                                placeholder="isi password" name="password">
+                                                placeholder="isi password" name="password" required>
                                         </div>
                                     </div>
                                 </div>
@@ -127,28 +127,28 @@
                                         <div class="col mb-6">
                                             <label for="txtNama" class="form-label">Nama pelanggan</label>
                                             <input type="text" id="txtNamaEdit" class="form-control"
-                                                placeholder="isi nama pelanggan" name="nama_pelanggan">
+                                                placeholder="isi nama pelanggan" name="nama_pelanggan" required>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col mb-6">
                                             <label for="txtTeleponpelangganEdit" class="form-label">No telepon</label>
                                             <input type="text" id="txtTeleponpelangganEdit" class="form-control"
-                                                placeholder="isi no telepon" name="no_telepon">
+                                                placeholder="isi no telepon" name="no_telepon" required>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col mb-6">
                                             <label for="txtUsernameEdit" class="form-label">Username</label>
                                             <input type="text" id="txtUsernameEdit" class="form-control"
-                                                placeholder="isi username" name="username">
+                                                placeholder="isi username" name="username" required>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col mb-6">
                                             <label for="txtPasswordEdit" class="form-label">Password</label>
                                             <input type="password" id="txtPasswordEdit" class="form-control"
-                                                placeholder="isi password" name="password">
+                                                placeholder="isi password" name="password" required>
                                         </div>
                                     </div>
 

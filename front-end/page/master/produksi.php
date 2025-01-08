@@ -34,14 +34,14 @@
                                             ?>
                                             <input type="text" id="txtId" class="form-control"
                                                 placeholder="isi id produksi" name="id_produksi"
-                                                value="<?= $id ?>" readonly>
+                                                value="<?= $id ?>" readonly required>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col mb-6">
                                             <label for="id_pembayaran" class="form-label">Id pembayaran</label>
                                             <select name="id_pembayaran" id="id_pembayaran" class="form-select">
-                                                <option value="" selected>Pilih Id Pembayaran</option>
+                                                <option value="" selected required>Pilih Id Pembayaran</option>
                                                 <?php
                                                 $query_id = mysqli_query($koneksi, "SELECT id_pembayaran FROM pembayaran join pesanan using (id_pesanan) WHERE status_pesanan = 'lunas' AND NOT EXISTS (SELECT 1 FROM produksi WHERE pembayaran.id_pembayaran = produksi.id_pembayaran) ORDER BY id_pembayaran ASC");
                                                 while ($result = mysqli_fetch_assoc($query_id)) {
@@ -57,21 +57,21 @@
                                         <div class="col mb-6">
                                             <label for="txtTanggal" class="form-label">Tanggal Pembayaran Pelanggan</label>
                                             <input type="text" id="txtTanggal" class="form-control"
-                                                name="tanggal" value="" readonly>
+                                                name="tanggal" value="" readonly required>
                                         </div>
                                     </div>
                                     <div class=" row">
                                         <div class="col mb-6">
                                             <label for="txtMulai" class="form-label">Mulai Produksi</label>
                                             <input type="text" id="txtMulai" class="form-control"
-                                                name="mulai" value="">
+                                                name="mulai" value="" readonly required>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col mb-6">
                                             <label for="txtSelesai" class="form-label">Selesai Produksi</label>
                                             <input type="text" id="txtSelesai" class="form-control"
-                                                name="selesai">
+                                                name="selesai" readonly required>
                                         </div>
                                     </div>
                                 </div>
