@@ -49,8 +49,8 @@
                                     <div class="row">
                                         <div class="col mb-6">
                                             <label for="txtTeleponpelanggan" class="form-label">No telepon</label>
-                                            <input type="text" id="txtTeleponpelanggan" class="form-control"
-                                                placeholder="isi no telepon" name="no_telepon" required>
+                                            <input type="tel" id="txtTeleponpelanggan" class="form-control"
+                                                placeholder="isi no telepon" name="no_telepon" pattern="[0-9]{9}" required>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -133,8 +133,8 @@
                                     <div class="row">
                                         <div class="col mb-6">
                                             <label for="txtTeleponpelangganEdit" class="form-label">No telepon</label>
-                                            <input type="text" id="txtTeleponpelangganEdit" class="form-control"
-                                                placeholder="isi no telepon" name="no_telepon" required>
+                                            <input type="tel" id="txtTeleponpelangganEdit" class="form-control"
+                                                placeholder="isi no telepon" name="no_telepon" pattern="[0-9]{11}" required>
                                         </div>
                                     </div>
                                     <div class="row">
